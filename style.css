@@ -1,0 +1,31 @@
+ body {
+        
+        font-family: 'Courier New', Courier, monospace;
+      }
+      h1 {
+        font-family: "Playwrite CU Guides", cursive;
+        font-style: italic;
+      }
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+.container{
+  display:flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.box{
+
+  padding: 50px;
+}
